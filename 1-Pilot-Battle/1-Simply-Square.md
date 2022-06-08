@@ -1,4 +1,6 @@
+# Simply Square
 ![Simply Square](./images/1-simply-square.jpeg)
+
 ```html
 <div></div>
 
@@ -7,11 +9,11 @@
     background: #5d3a3a;
     margin: 0;
   }
-  
+
   div {
-    width:200px;
-    height:200px;
-    background:#b5e0ba;
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
   }
 </style>
 ```
