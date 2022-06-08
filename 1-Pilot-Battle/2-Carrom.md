@@ -1,5 +1,5 @@
 ![Carrom](./images/2-carrom.jpeg)
-```
+```html
 <div tr></div><div tl></div>
 <div br></div><div bl></div>
 

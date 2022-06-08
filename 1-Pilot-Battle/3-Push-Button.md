@@ -1,5 +1,5 @@
 ![Push Button](./images/3-push-button.jpeg)
-```
+```html
 <div b><div c><div ic></div></div></div>
 <style>
   body {

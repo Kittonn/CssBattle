@@ -1,5 +1,5 @@
 ![Simply Square](./images/1-simply-square.jpeg)
-```
+```html
 <div></div>
 
 <style>
