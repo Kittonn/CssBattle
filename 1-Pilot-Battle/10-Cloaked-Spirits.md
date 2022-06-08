@@ -3,44 +3,45 @@
 ![Cloaked Spirits](./images/10-cloaked-spirits.jpeg)
 
 ```html
-<div w>
-  <div r b><div c></div></div>
-  <div r><div c i></div></div>
-  <div r b><div c></div></div>
+<div id="w">
+  <div id="b"><div id="c"></div></div>
+  <div id="b"><div id="c"></div></div>
+  <div id="b"><div id="c"></div></div>
 </div>
 <style>
   body {
     margin: 0;
     background: #62306d;
-    padding: 50px;
   }
-  [w] {
+  #w {
     width: 300px;
     height: 250px;
+    margin: 50px;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
-  [r] {
-    position: relative;
-    margin-top: 50px;
+  #b {
     width: 100px;
-    height: 200px;
+    height: 100px;
     background: #f7ec7d;
+    position: relative;
   }
-  [b] {
-    margin-top: 150px;
+  #b:nth-child(2n) {
+    height: 200px;
   }
-  [c] {
-    border-radius: 50%;
-    position: absolute;
+  #b:nth-child(2n) > * {
+    background: #aa445f;
+    border: 20px solid #e38f66;
+  }
+  #c {
     top: -50px;
+    position: absolute;
     width: 60px;
     height: 60px;
-    border: 20px solid #aa445f;
+    border-radius: 50%;
     background: #e38f66;
-  }
-  [i] {
-    border: 20px solid #e38f66;
-    background: #aa445f;
+    border: 20px solid #aa445f;
   }
 </style>
 ```

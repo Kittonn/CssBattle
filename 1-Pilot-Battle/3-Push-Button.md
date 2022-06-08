@@ -1,40 +1,44 @@
 # Push Button
+
 ![Push Button](./images/3-push-button.jpeg)
 
 ```html
-<div b>
-  <div c><div ic></div></div>
+<div id="b">
+  <div id="oc">
+    <div id="ic"></div>
+  </div>
 </div>
+
 <style>
   body {
     background: #6592cf;
     margin: 0;
   }
-  [b] {
-    background: #243d83;
+  #b {
     width: 300px;
     height: 150px;
-    margin: 75px 50px;
+    background: #243d83;
+    margin: 75px auto;
     position: relative;
   }
-  [c] {
+  #oc {
     position: absolute;
-    left: 25px;
-    top: -50px;
     background: #243d83;
+    border: 50px solid #6592cf;
     width: 150px;
     height: 150px;
-    border: 50px solid #6592cf;
+    top: -50px;
+    left: 25px;
   }
-  [ic],
-  [c] {
-    border-radius: 50%;
-  }
-  [ic] {
-    background: #eeb850;
+  #ic {
+    margin: 50px;
     width: 50px;
     height: 50px;
-    margin: 50px;
+    background: #eeb850;
+  }
+  #ic,
+  #oc {
+    border-radius: 50%;
   }
 </style>
 ```

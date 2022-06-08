@@ -3,50 +3,45 @@
 ![Tesseract](./images/9-tesseract.jpeg)
 
 ```html
-<div r>
-  <div s>
-    <div a><div c></div></div>
-  </div>
-</div>
+<div id="b1"></div>
+<div id="b2"></div>
+<div id="b3"></div>
+<div id="c"></div>
 <style>
   body {
     background: #222730;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  [r] {
+  body > * {
+    position: absolute;
+  }
+  #b1 {
     background: #4caab3;
     height: 150px;
-    margin-top: 75px;
+    width: 100%;
   }
-  [s] {
+  #b2,
+  #b3 {
+    transform: rotate(45deg);
+  }
+  #b2 {
     background: #222730;
     width: 250px;
     height: 250px;
-    top: -50px;
-    left: 75px;
-    transform: rotate(45deg);
   }
-  [a] {
+  #b3 {
+    background: #4caab3;
     width: 150px;
     height: 150px;
-    background: #4caab3;
-    margin: 50px;
   }
-  [s],
-  [c] {
-    position: absolute;
-  }
-  [r],
-  [a] {
-    position: relative;
-  }
-  [c] {
-    top: 50;
-    left: 50;
+  #c {
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     background: #393e46;
-    border-radius: 50%;
   }
 </style>
 ```

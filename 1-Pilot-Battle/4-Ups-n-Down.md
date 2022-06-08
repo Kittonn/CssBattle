@@ -1,33 +1,33 @@
 # Ups n Down
+
 ![Ups n Down](./images/4-ups-n-down.jpeg)
+
 ```html
-<div w>
-  <div b l></div>
-  <div b c></div>
-  <div b r></div>
+<div id="w">
+  <div></div>
+  <div></div>
+  <div></div>
 </div>
 <style>
   body {
     margin: 0;
     background: #62306d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 50px;
   }
-  [w] {
-    height: 200px;
+  #w {
     width: 300px;
+    height: 200px;
     display: flex;
   }
-  [b]:nth-child(2n + 1) {
-    margin-top: 100px;
-    transform: rotate(180deg);
-  }
-  [b] {
+  #w > * {
     background: #f7ec7d;
     width: 100px;
     height: 100px;
     border-radius: 50% 50% 0 0;
+  }
+  #w > div:nth-child(2n + 1) {
+    align-self: flex-end;
+    transform: rotate(180deg);
   }
 </style>
 ```

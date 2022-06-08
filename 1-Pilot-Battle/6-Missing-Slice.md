@@ -1,11 +1,9 @@
 # Missing Slice
+
 ![Missing Slice](./images/6-missing-slice.jpeg)
+
 ```html
-<div w>
-  <div p></div>
-  <div p r></div>
-  <div p b></div>
-</div>
+<div id="b"></div>
 <style>
   body {
     background: #e3516e;
@@ -13,27 +11,16 @@
     justify-content: center;
     align-items: center;
   }
-  [w] {
+  #b {
     width: 200px;
     height: 200px;
-    position: relative;
-  }
-  [p] {
-    position: absolute;
-    background: #51b5a9;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px 0 0 0;
-  }
-  [r] {
-    right: 0;
-    transform: rotate(90deg);
-    background: #fade8b;
-  }
-  [b] {
-    bottom: 0;
-    transform: rotate(270deg);
-    background: #f7f3d7;
+    background: conic-gradient(
+      #fade8b 90deg,
+      #e3516e 90deg 180deg,
+      #f7f3d7 180deg 270deg,
+      #51b5a9 270deg
+    );
+    border-radius: 50%;
   }
 </style>
 ```

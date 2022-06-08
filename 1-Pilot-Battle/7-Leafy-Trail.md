@@ -3,10 +3,10 @@
 ![Leafy Trail](./images/7-leafy-trail.jpeg)
 
 ```html
-<div w>
-  <div c l></div>
-  <div c c></div>
-  <div c r></div>
+<div id="w">
+  <div id="b"></div>
+  <div id="c"></div>
+  <div id="t"></div>
 </div>
 <style>
   body {
@@ -15,28 +15,26 @@
     justify-content: center;
     align-items: center;
   }
-  [w] {
+  #w {
     width: 250px;
     height: 150px;
     position: relative;
   }
-  [c] {
+  #w > * {
     position: absolute;
     width: 150px;
     height: 150px;
-    background: #998235;
+    background: #f3ac3c;
     border-radius: 100px 0;
+    right: 0;
   }
-  [l] {
+  #c {
+    right: 50px;
+    background: #998235;
+  }
+  #b {
     left: 0;
     background: #1a4341;
-  }
-  [c] {
-    right: 50px;
-  }
-  [r] {
-    background: #f3ac3c;
-    right: 0;
   }
 </style>
 ```

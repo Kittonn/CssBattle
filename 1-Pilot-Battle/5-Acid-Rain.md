@@ -1,10 +1,12 @@
 # Acid Rain
+
 ![Acid Rain](./images/5-acid-rain.jpeg)
+
 ```html
-<div w>
-  <div b c></div>
-  <div c m></div>
-  <div t c></div>
+<div id="w">
+  <div id="t"></div>
+  <div id="c"></div>
+  <div id="b"></div>
 </div>
 <style>
   body {
@@ -13,30 +15,26 @@
     align-items: center;
     display: flex;
   }
-  [w] {
-    height: 240px;
+  #w {
     width: 240px;
+    height: 240px;
     position: relative;
   }
-  [c] {
+  #w > * {
     position: absolute;
-    background: #f3ac3c;
     width: 120px;
     height: 120px;
+    background: #f3ac3c;
     border-radius: 50% 0 50% 50%;
-  }
-  [m] {
-    z-index: 2;
-    background: #998235;
-    top: 60px;
-    left: 60px;
-  }
-  [b] {
-    z-index: 3;
     bottom: 0;
   }
-  [t] {
-    z-index: 1;
+  #c {
+    top: 60px;
+    left: 60px;
+    background: #998235;
+  }
+  #t {
+    top: 0;
     right: 0;
     transform: rotate(180deg);
   }
