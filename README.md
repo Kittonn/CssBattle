@@ -19,10 +19,10 @@
 ![Visibility](./2-Visibility/images/0-visibility.jpeg)
 * [#13 - Totally Triangle](./2-Visibility/13-Totally-Triangle.md)
 * #14 - Web Maker Logo
-* #15 - Overlap
+* [#15 - Overlap](./2-Visibility/15-Overlap.md)
 * [#16 - Eye of The Tiger](./2-Visibility/16-Eye-of-The-Tiger.md)
 * #17 - Fidget Spinner
-* #18 - Matrix
+* [#18 - Matrix](./2-Visibility/18-Matrix.md)
 
 ## Battle #3 - Cursor
 ![Cursor](./3-Cursor/images/0-cursor.jpeg)
