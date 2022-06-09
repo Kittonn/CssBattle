@@ -28,3 +28,8 @@
 ![Cursor](./3-Cursor/images/0-cursor.jpeg)
 * [#19 - Cube](./3-Cursor/19-Cube.md)
 * [#20 - Ticket](./3-Cursor/20-Ticket.md)
+
+## Battle #6 - Conic
+![Conic](./6-Conic/images/0-conic.jpeg)
+* [#31 - Equals](./6-Conic/31-Equals.md)
+* [#32 - Band Aid](./6-Conic/32-Band-Aid.md)
