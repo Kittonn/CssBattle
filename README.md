@@ -1,6 +1,7 @@
 # CSS Battle
 
 ## Battle #1 - Pilot Battle
+![Pilot Battle](./1-Pilot-Battle/images/0-pilot-battle.jpeg)
 * [#1 - Simply Square](./1-Pilot-Battle/1-Simply-Square.md)
 * [#2 - Carrom](./1-Pilot-Battle/2-Carrom.md)
 * [#3 - Push Button](./1-Pilot-Battle/3-Push-Button.md)
@@ -15,6 +16,7 @@
 * #12 - Wiggly Moustache
 
 ## Battle #2 - Visibility
+![Visibility](./2-Visibility/images/0-visibility.jpeg)
 * [#13 - Totally Triangle](./2-Visibility/13-Totally-Triangle.md)
 * #14 - Web Maker Logo
 * #15 - Overlap
@@ -23,5 +25,6 @@
 * #18 - Matrix
 
 ## Battle #3 - Cursor
+![Cursor](./3-Cursor/images/0-cursor.jpeg)
 * [#19 - Cube](./3-Cursor/19-Cube.md)
 * [#20 - Ticket](./3-Cursor/20-Ticket.md)

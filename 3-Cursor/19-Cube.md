@@ -29,10 +29,10 @@
     width: 70px;
     height: 70px;
     background: #998235;
-    transform: skewY(-45deg);
     top: 80px;
   }
   #l {
+    transform: skewY(-45deg);
     left: 130px;
   }
   #r {
