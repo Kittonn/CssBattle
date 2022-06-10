@@ -29,6 +29,22 @@
 * [#19 - Cube](./3-Cursor/19-Cube.md)
 * [#20 - Ticket](./3-Cursor/20-Ticket.md)
 
+## Battle #4 - Display
+![Display](./4-Display/images/0-display.jpeg)
+* #21 - SitePoint Logo
+* #22 - Cloud
+* [#23 - Boxception](./4-Display/23-Boxception.md)
+* [#24 - Switches](./4-Display/24-Switches.md)
+* [#25 - Blossom](./4-Display/25-Blossom.md)
+* #26 - Smiley
+* #27 - Lock Up
+* [#28 - Cups & Balls](./4-Display/28-Cups-%26-Balls.md)
+
+## Battle #5 - Inline
+![Inline](./5-Inline/images/0-inline.jpeg)
+* #29 - Suffocate
+* [#30 - Horizon](./5-Inline/30-Horizon.md)
+
 ## Battle #6 - Conic
 ![Conic](./6-Conic/images/0-conic.jpeg)
 * [#31 - Equals](./6-Conic/31-Equals.md)
